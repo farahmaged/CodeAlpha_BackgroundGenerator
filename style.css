@@ -1,0 +1,41 @@
+* {
+    color: #000;
+    font-family: "Fira-Mono", monospace;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+#container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+#button {
+    background-color: rgba(220, 220, 235, 0.7);
+    border-radius: 35px;
+    cursor: pointer;
+    margin: 2rem 0;
+    transition: all ease-in-out 0.5s;
+}
+
+#button:hover {
+    background-color: rgba(220, 220, 235, 0.7);
+    transition: all ease 0.3s;
+}
+
+#output {
+    font-family: "Fira-Mono", monospace;
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-top: 1.5rem;
+}
+
+#button,
+#output {
+    padding: 1rem;
+}
